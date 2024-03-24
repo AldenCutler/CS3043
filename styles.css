@@ -57,3 +57,20 @@ body {
 .group h2 {
     margin: auto;
 }
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: center;
+}
+
+.project li {
+    margin: 0.5rem;
+    text-align: left;
+}
+
+ul .done:before {
+    content: '\e052';
+    margin-right: 0.5rem;
+}
