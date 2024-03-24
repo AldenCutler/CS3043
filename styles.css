@@ -70,7 +70,7 @@ body {
     text-align: left;
 }
 
-ul .done:before {
-    content: '\e052';
+ul .done {
+    text-decoration: line-through;
     margin-right: 0.5rem;
 }
