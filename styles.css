@@ -100,3 +100,39 @@ ul .done {
     text-decoration: line-through;
     margin-right: 0.5rem;
 }
+
+
+
+
+
+.timeline {
+  position: relative;
+  max-width: 800px; /* Adjust width as needed */
+  margin: 20px auto; /* Adjust margin as needed */
+}
+
+.item {
+  width: 50%;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+.item .content {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.item .content h2 {
+  margin-top: 0;
+}
