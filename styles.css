@@ -145,3 +145,12 @@ ul .done {
 .item .content h2 {
   margin-top: 0;
 }
+
+
+
+.child {
+    max-width: 500px;
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
